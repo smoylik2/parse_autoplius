@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+.block {
+    width: 40%;
+    margin-left: 15%;
+    padding: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    background-color: #F5F9FC;
+    margin: 0;
+    padding: 5px 20px;
+}
+
+.input_form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#link_field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin: 5px 0 20px;
+}
+
+#link_field:focus {
+    border: 2px solid dodgerblue;
+}
+
+.lable_link_field {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 5px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск по модели</title>
+    <link rel="stylesheet" href="/static/main_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="header">
+    <img src="https://autoplius-static.dgn.lt/static/images/svg/autoplius-logo.svg?v=c2" alt="Autoplius">
+</div>
+<div class="block">
+    <div class="information">
+        <p>
+            На данной странице вы можете сократить поиск по сайту Autoplius.lt,<br>
+            просто выберите нужные параметры поиска на главной странице,<br>
+            нажмите "Найти" и скопируйте ссылку с первой страницы поиска. <br>
+        </p>
+        <p>
+            В результате вы получите список моделей авто согласно заданным параметрам.
+        </p>
+    </div>
+    <form class="input_form" action="./" method="post">
+        <label for="link_field" class="lable_link_field">Вставте ссылку:</label>
+        <input type="text" placeholder="Ссылка..." id="link_field" name="link">
+        <input type="submit" onclick="setTimeout(()=>document.getElementsByClassName('btn')[0].disabled = true, 10)"
+               value="Вперед" class="btn"/>
+    </form>
+</div>
+</body>
+</html>
