@@ -9,4 +9,4 @@ App structure:
   - index.js have a server logic ( use express js )
   - createHtml.js cook final html-page
   - business-logic.js prapare data for user
-  - data-acces.js parse all pages from links
+  - data-acces.js parse all pages from links ( use axios and cheerio from npm js)
